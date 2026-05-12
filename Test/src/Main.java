@@ -8,10 +8,10 @@ import java.util.stream.Collectors;
 public class Main {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        System.out.println("Hii");
+
         BankAccount bankAccount = new BankAccount();
         BankAccount bankAccount2 = new BankAccount();
-
+        System.out.println("Hii");
         bankAccount.withdraw(50);
         bankAccount2.withdraw(50);
 
